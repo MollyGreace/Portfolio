@@ -16,6 +16,7 @@
 
 	<!--Icons-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/sketchy/bootstrap.min.css">
 
 	<!--Css-->
 	<link rel="stylesheet" href="css/main.css">
@@ -25,9 +26,9 @@
 
 <body>
 	<!--Navbar-->
-	<nav class="navbar navbar-expand-lg stylish-color-dark white-text navigator">
+	<nav class="navbar navbar-expand-lg  navbar-light navigator">
 		<!-- Navbar brand -->
-		<a class="navbar-brand" href="#">MG</a>
+		<a class="navbar-brand display-4" href="index.html">MG</a>
 
 		<!-- Collapse button -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -40,7 +41,7 @@
 			<!-- Links -->
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="index.html">INICIO</a>
+					<a class="nav-link display-4" href="index.html">SOBRE MÍ</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link nav-portfolio white-text ">PORTAFOLIO</a>
@@ -54,12 +55,12 @@
 			<!--Navbar Social Red-->
 			<ul class="navbar-nav ml-auto nav-flex-icons">
 				<li class="nav-item">
-					<a class="nav-link waves-effect waves-light">
+					<a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/mollygreace/">
 						<i class="fa fa-linkedin"></i>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link waves-effect waves-light">
+					<a class="nav-link waves-effect waves-light" href="https://github.com/MollyGreace">
 						<i class="fa fa-github"></i>
 					</a>
 				</li>
@@ -78,55 +79,77 @@
 			</a>
 		</div>
 		<div class="content-molly">
-			<h1 class="white-text text-h1">MOLLY GREACE</h1>
+			<h1 class="white-text">MOLLY GREACE</h1>
 		</div>
-		<button type="button" class="btn btn-outline-danger btn-rounded animated bounceInDown font-weight-bold" id="btn-aboutme">Acerca de mí</button>
-		<button type="button" class="btn btn-outline-danger btn-rounded animated bounceInDown font-weight-bold" id="btn-portfolio">Portafolio</button>
-		<button type="button" class="btn btn-outline-danger btn-rounded animated bounceInDown font-weight-bold" id="btn-contact">Contacto</button>
+		<button type="button" class="btn btn-outline-secondary btn-rounded animated bounceInDown font-weight-bold" id="btn-aboutme">Acerca de mí</button>
+		<button type="button" class="btn btn-outline-secondary btn-rounded animated bounceInDown font-weight-bold" id="btn-portfolio">Portafolio</button>
+		<button type="button" class="btn btn-outline-secondary btn-rounded animated bounceInDown font-weight-bold" id="btn-contact">Contacto</button>
 	</section>
 	<!-- /Home -->
 
 	<!-- About Me -->
 	<section class="aboutme container-fluid" id="aboutme">
-		<div class="row">			
+		<div class="row">
 			<div class="col-sm-12 col-lg-6">
-				<h4>Descripción</h4>
-				<p>hola mundo</p>
+				<div class="col-sm-6 col-lg-6">
 
+				</div>
 			</div>
-
 			<div class="col-sm-12 col-lg-6">
 				<div class="row">
-					<h4>Skills Tech</h4>
+					<h2 class="display-3">Skills Tech</h2>
 				</div>
 				<div class="row">
-					<h4>Soft Skills</h4>
+					<h2 class="display-3">Soft Skills</h2>
 				</div>
 			</div>
 		</div>
-		<!-- <h2>
-				Hola, Soy Molly Siesquén, UX/UI Designer egresada de Laboratoria. Me considero una persona proactiva, empática, honesta y muy versátil. Tengo una carrera en Ing de Sistemas por ello me gustaría en un futuro especializarme en Data Sciencie.
-		</h2> -->
 	</section>
 	<!-- /About Me -->
 
 	<!-- Portfolio -->
 	<section class="" id="portfolio">
-		portfolio
+		
 	</section>
 	<!-- /Portfolio -->
 
 	<!-- Contact -->
-	<section class="" id="contact">
-		contacto
+	<section class="text-center" id="contact">
+		<div class="row">
+			<div class="col-sm-6 col-lg-12">
+				<h2 class="text-center">CONTÁCTAME</h2>
+			</div>
+		</div>
+		<!-- <hr class="red"> -->
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<span><i class="fa fa-4x fa-envelope-o"></i></span>
+				<h4><a href="!">greace.ss@gmail.com</a></h4>
+				<!-- <button></button> -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<span class="col-sm-6 col-md-6 col-lg-3">
+					<a href="https://github.com/MollyGreace">
+						<i class="fa fa-4x fa-github"></i>
+					</a>
+				</span>
+				<span class="col-sm-6 col-md-6 col-lg-3">
+					<a href="https://www.linkedin.com/in/mollygreace/">
+						<i class="fa fa-4x fa-linkedin"></i>
+					</a>
+				</span>
+			</div>
+		</div>
 	</section>
 	<!-- /Contact -->
 
 
 	<!-- Footer -->
-	<footer class="page-footer center-on-small-only stylish-color-dark">
+	<!-- <footer class="page-footer center-on-small-only stylish-color-dark"> -->
 		<!--Social buttons-->
-		<div class="social-section text-center">
+		<!-- <div class="social-section text-center">
 			<ul>
 				<li>
 					<a class="btn-floating btn-sm btn-li">
@@ -139,18 +162,18 @@
 					</a>
 				</li>
 			</ul>
-		</div>
+		</div> -->
 		<!--/.Social buttons-->
 
 		<!--Copyright-->
-		<div class="footer-copyright">
+		<!-- <div class="footer-copyright">
 			<div class="container-fluid">
 				© 2018 Copyright:
 				<a href="#"> MollyGreace </a>
 			</div>
-		</div>
+		</div> -->
 		<!--/.Copyright-->
-	</footer>
+	<!-- </footer> -->
 	<!-- /Footeer -->
 
 	<!-- <section class="text-center pb-3">

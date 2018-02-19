@@ -77,7 +77,7 @@ $(document).ready(function() {
 
   // Cambiar a diferentes secciones de index 
 
-  var home = $('.section-first');
+  var home = $('.home');
   var navBar = $('nav.navigator');
   var btnAboutme = $('#btn-aboutme');
   var btnPortfolio = $('#btn-portfolio');
@@ -91,45 +91,43 @@ $(document).ready(function() {
   navBar.css('display', 'none');
 
   btnAboutme.click(function() {
+    navBar.css('display', 'block');
     home.css('display', 'none');
     portfolio.css('display', 'none');
     contact.css('display', 'none');
-    navBar.removeAttr('style');
-    navBar.attr('overflow', 'hidden');
     aboutme.css('display', 'block');
   });
 
   btnPortfolio.click(function() {
+    navBar.css('display', 'block');
     home.css('display', 'none');
     aboutme.css('display', 'none');
     contact.css('display', 'none');
-    navBar.removeAttr('style');
-    navBar.attr('overflow', 'hidden');
     portfolio.css('display', 'block');
   });
 
   btnContact.click(function() {
-    home.css('display', 'none');
-    aboutme.css('display', 'none');
-    portfolio.css('display', 'none');
-    navBar.removeAttr('style');
-    navBar.attr('overflow', 'hidden');
-    contact.css('display', 'block');
-  });
+    navBar.css('display', 'block');
 
-  navPortfolio.click(function() {
-    home.css('display', 'none');
-    aboutme.css('display', 'none');    
-    contact.css('display', 'none');
-    portfolio.css('display', 'block');
-  });
-
-  navContact.click(function() {
     home.css('display', 'none');
     aboutme.css('display', 'none');
     portfolio.css('display', 'none');
     contact.css('display', 'block');
   });
+
+  // navPortfolio.click(function() {
+  //   home.css('display', 'none');
+  //   aboutme.css('display', 'none');    
+  //   contact.css('display', 'none');
+  //   portfolio.css('display', 'block');
+  // });
+
+  // navContact.click(function() {
+  //   home.css('display', 'none');
+  //   aboutme.css('display', 'none');
+  //   portfolio.css('display', 'none');
+  //   contact.css('display', 'block');
+  // });
 
   
 });

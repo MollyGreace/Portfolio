@@ -7,14 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<!--Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> -->
 
 	<!-- Vendors/css -->
 	<link rel="stylesheet" href="vendors/mdb/css/mdb.min.css">
 	<link rel="stylesheet" href="vendors/mdb/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="vendors/bootstrap/css/mdb.min.css"> -->
-	<!-- <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css"> -->
-	<!-- <link rel="stylesheet" href="vendors/mdb/css/style.css"> -->
 
 	<!--Icons-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +23,7 @@
 	<title>Molly Greace</title>
 </head>
 
-<body>
+<body class="container-animation">
 	<!--Navbar-->
 	<nav class="navbar navbar-expand-lg blue-grey darken-1 indigo-text text-darken-4 navigator">
 		<!-- Navbar brand -->
@@ -71,21 +68,26 @@
 		</div>
 		<!-- /Collapsible content -->
 	</nav>
-	<!--/Navbar-->
 
 	<!-- Home -->
-	<section class="container-animation home">
-		<div class="avatar">
-			<a href="">
-				<img src="assets/images/molly.jpg" alt="MollyGreace" />
-			</a>
+	<section class="home text-center">
+		<div class="avatar rounded-circle img-responsive">
+			<!-- <a href=""> -->
+			<img src="assets/images/molly.jpg" alt="MollyGreace" class="rounded-circle img-responsive animation-avatar">
+			<!-- </a> -->
 		</div>
 		<div class="content-molly">
 			<h1 class="white-text">Mi Portafolio</h1>
 		</div>
-		<button type="button" class="btn btn-deep-purple btn-lg hoverable animated bounceInDown font-weight-bold " id="btn-aboutme"><p class="h4">Acerca de mí</p> </button>
-		<button type="button" class="btn btn-deep-purple btn-lg hoverable animated bounceInDown font-weight-bold" id="btn-portfolio"><p class="h4">Portafolio</p></button>
-		<button type="button" class="btn btn-deep-purple btn-lg hoverable animated bounceInDown font-weight-bold" id="btn-contact"><p class="h4">Contacto</p></a>
+		<button type="button" class="btn btn-deep-purple btn-lg hoverable animated bounceInDown font-weight-bold " id="btn-aboutme">
+			<p class="h4">Acerca de mí</p>
+		</button>
+		<button type="button" class="btn btn-deep-purple btn-lg hoverable animated bounceInDown font-weight-bold" id="btn-portfolio">
+			<p class="h4">Portafolio</p>
+		</button>
+		<button type="button" class="btn btn-deep-purple btn-lg hoverable animated bounceInDown font-weight-bold" id="btn-contact">
+			<p class="h4">Contacto</p>
+			</a>
 	</section>
 	<!-- /Home -->
 
@@ -207,104 +209,45 @@
 				<h2 class="text-center display-4 cyan-text font-weight-bold animated">PORTAFOLIO</h2>
 			</div>
 		</div>
-		<hr>
-		<div class="row">
-			<div class="col-sm-6 col-md-6 col-lg-6">
-				<div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
-					<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-							<div>
-									<h6 class="pink-text">
-											<i class="fa fa-pie-chart"></i>
-											<strong> Marketing</strong>
-									</h6>
-									<h3 class="py-3 font-bold">
-											<strong>This is card title</strong>
-									</h3>
-									<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-											vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-											qui, dolorum!
-									</p>
-									<a class="btn btn-pink btn-rounded btn-md">
-											<i class="fa fa-clone left"></i> View project</a>
-							</div>
-					</div>
-			</div>
-			</div>
-			<div class="col-sm-6 col-md-6 col-lg-6">
-				<div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
-					<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-							<div>
-									<h6 class="pink-text">
-											<i class="fa fa-pie-chart"></i>
-											<strong> Marketing</strong>
-									</h6>
-									<h3 class="py-3 font-bold">
-											<strong>This is card title</strong>
-									</h3>
-									<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-											vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-											qui, dolorum!
-									</p>
-									<a class="btn btn-pink btn-rounded btn-md">
-											<i class="fa fa-clone left"></i> View project</a>
-							</div>
-					</div>
-			</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12 col-md-6 col-lg-6">
-				<div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
-				<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-						<div>
-								<h6 class="pink-text">
-										<i class="fa fa-pie-chart"></i>
-										<strong> Marketing</strong>
-								</h6>
-								<h3 class="py-3 font-bold">
-										<strong>This is card title</strong>
-								</h3>
-								<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-										vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-										qui, dolorum!
-								</p>
-								<a class="btn btn-pink btn-rounded btn-md">
-										<i class="fa fa-clone left"></i> View project</a>
-						</div>
-				</div>
-		</div>
-	</div>
-	<div class="w-100"></div>
-			<div class="col-sm-12 col-md-6 col-lg-6">
-					<div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
-						<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-								<div>
-										<h6 class="pink-text">
-												<i class="fa fa-pie-chart"></i>
-												<strong> Marketing</strong>
-										</h6>
-										<h3 class="py-3 font-bold">
-												<strong>This is card title</strong>
-										</h3>
-										<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-												vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-												qui, dolorum!
-										</p>
-										<a class="btn btn-pink btn-rounded btn-md">
-												<i class="fa fa-clone left"></i> View project</a>
-								</div>
-						</div>
-				</div>
-			</div>
-		</div>
-		<div class="row"></div>
-		<div class="row"></div>
 
+		<div class="row">
+			<div class="col-sm-6 col-md-6 col-lg-6">
+				<div class="card card-image">
+					<!--Colocar imagen de proyecto-->
+					<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+						<!-- <div> -->
+							<h3 class="py-3 font-bold">
+								<strong>Proyecto-1</strong>
+							</h3>
+							<p class="pb-3">Breve descripción</p>
+							<a class="btn btn-pink btn-rounded btn-md">
+								<i class="fa fa-clone left"></i>Demo
+							</a>
+						<!-- </div> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-6">
+				<div class="card card-image">
+					<!--Colocar imagen de proyecto-->
+					<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+							<h3 class="py-3 font-bold">
+								<strong>Proyecto-1</strong>
+							</h3>
+							<p class="pb-3">Breve descripción</p>
+							<a class="btn btn-pink btn-rounded btn-md">
+								<i class="fa fa-clone left"></i>Demo
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 	</section>
 	<!-- /Portfolio -->
 
 	<!-- Contact -->
-	<section class="text-center" id="contact" name="contact">
+	<section class="container text-center" id="contact" name="contact">
 		<div class="row">
 			<div class="col-sm-12 col-lg-12">
 				<h2 class="text-center display-4 cyan-text animated tada">CONTÁCTAME</h2>

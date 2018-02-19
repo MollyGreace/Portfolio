@@ -89,6 +89,11 @@ $(document).ready(function() {
   var navContact = $('.nav-contact'); 
 
   navBar.css('display', 'none');
+  aboutme.css('display', 'none');
+  portfolio.css('display', 'none');
+  contact.css('display', 'none');
+
+
 
   btnAboutme.click(function() {
     navBar.css('display', 'block');

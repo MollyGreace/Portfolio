@@ -1,16 +1,6 @@
 /* Home */
-html {
-  overflow: hidden;
-  height: 100vh;
-  width: 100%;
-}
-
 body {
   background: linear-gradient(to bottom, #265966 0%,#63b7b4 100%);
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
 }
  
 @keyframes float {
@@ -30,18 +20,12 @@ body {
 
 .container-animation {
 	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	height: 100vh;
 }
 
 .avatar {
   box-sizing: border-box;
-  border-radius: 50%;
-  overflow: hidden;
-  animation: float 6s ease-in-out infinite;
+  /* animation: float 6s ease-in-out infinite; */
   z-index: 1000;
 }
 
@@ -49,10 +33,13 @@ body {
 	width: 100%;
 	max-width: 600px;
 	padding: 20px 40px;
-	box-sizing: border-box;
-	text-align: center;
+	/* box-sizing: border-box;
+	text-align: center; */
 }
 
+.animation-avatar {
+  animation: float 6s ease-in-out infinite;
+}
 .star, .planet {
   border-radius: 100%;
   position: absolute;
@@ -88,8 +75,4 @@ body {
     transform: scale(1.0); 
     opacity: 1; 
   }
-}
-
-.hr-color {
-  color: teal;
 }

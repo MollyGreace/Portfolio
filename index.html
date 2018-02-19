@@ -12,6 +12,8 @@
 	<!-- Vendors/css -->
 	<link rel="stylesheet" href="vendors/mdb/css/mdb.min.css">
 	<link rel="stylesheet" href="vendors/mdb/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="vendors/bootstrap/css/mdb.min.css"> -->
+	<!-- <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css"> -->
 	<!-- <link rel="stylesheet" href="vendors/mdb/css/style.css"> -->
 
 	<!--Icons-->
@@ -26,7 +28,7 @@
 
 <body>
 	<!--Navbar-->
-	<nav class="navbar navbar-expand-lg  navbar-light navigator">
+	<nav class="navbar navbar-expand-lg blue-grey darken-1 indigo-text text-darken-4 navigator">
 		<!-- Navbar brand -->
 		<a class="navbar-brand display-4" href="index.html">MG</a>
 
@@ -41,7 +43,7 @@
 			<!-- Links -->
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link display-4" href="index.html">SOBRE MÍ</a>
+					<a class="nav-link" href="#aboutme">SOBRE MÍ</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link nav-portfolio white-text ">PORTAFOLIO</a>
@@ -79,9 +81,9 @@
 			</a>
 		</div>
 		<div class="content-molly">
-			<h1 class="white-text">MOLLY GREACE</h1>
+			<h1 class="white-text">Mi Portafolio</h1>
 		</div>
-		<button type="button" class="btn btn-outline-secondary btn-rounded animated bounceInDown font-weight-bold" id="btn-aboutme">Acerca de mí</button>
+		<button type="button" class="btn btn-outline-secondary text-indigo animated bounceInDown font-weight-bold " id="btn-aboutme">Acerca de mí</button>
 		<button type="button" class="btn btn-outline-secondary btn-rounded animated bounceInDown font-weight-bold" id="btn-portfolio">Portafolio</button>
 		<button type="button" class="btn btn-outline-secondary btn-rounded animated bounceInDown font-weight-bold" id="btn-contact">Contacto</button>
 	</section>
@@ -89,27 +91,118 @@
 
 	<!-- About Me -->
 	<section class="aboutme container-fluid" id="aboutme">
-		<div class="row">
-			<div class="col-sm-12 col-lg-6">
-				<div class="col-sm-6 col-lg-6">
+		<h2 class="display-4 text-center">ACERCA DE MÍ</h2>
 
+		<div class="row">
+			<div class="card bg-transparent  text-center col-sm-12 col-md-6 col-lg-6">
+				<div class="card-body secondary-text">
+					<h5 class="card-title">Mi nombre es Molly Siesquén</h5>
+					<p class="card-text white-text">
+						UX Designer por vocación e Ingeniero de sistemas por convicción.
+						<br> Perseverante de nacimiento, empática, proactiva, versátil y definitivamente sociable. Siempre supe que tenía algo
+						que conectaba con las personas, hasta que la especialización de Ux Designer durante el bootcamp de Laboratoria me abrió
+						las puertas a este mundo tecnológico con el que siempre soñé. Mis planes a futuro son tener mi propia empresa y especializarme
+						en Data Sciencie.
+					</p>
+					<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+					<a class="btn btn-primary" href="assets/images/molly.jpg" download="molly.jpg">
+						<span>
+							<i class="fa fa-download"></i>
+						</span> Descargar CV
+					</a>
 				</div>
+				<!-- <div class="card-footer text-muted">
+				</div> -->
 			</div>
-			<div class="col-sm-12 col-lg-6">
-				<div class="row">
-					<h2 class="display-3">Skills Tech</h2>
+			<div class="col-sm-12 col-md-6 col-lg-6">
+				<!--Accordion wrapper-->
+				<div class="accordion accordion-1" id="accordionEx23" role="tablist">
+					<div class="card">
+						<div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading96">
+							<h5 class="font-up mb-0 py-1">
+								<a class="white-text font-bold" data-toggle="collapse" href="#collapse96" aria-expanded="true" aria-controls="collapse96">
+									Logros
+								</a>
+							</h5>
+						</div>
+						<div id="collapse96" class="collapse show" role="tabpanel" aria-labelledby="heading96" data-parent="#accordionEx23">
+							<div class="card-body">
+								<div class="row my-4">
+									<div class="col-md-8">
+										<h4 class="font-bold mb-3 black-text">Estos son algunos de los logros que he tenido</h4>
+										<!-- <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> -->
+									</div>
+									<!-- <div class="col-md-4 mt-3 pt-2">
+                        <div class="view z-depth-1">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg" alt="" class="img-fluid">
+                        </div>
+                    </div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading97">
+							<h5 class="font-up mb-0 py-1">
+								<a class="collapsed font-bold white-text" data-toggle="collapse" href="#collapse97" aria-expanded="false" aria-controls="collapse97">
+									Soft Skills
+								</a>
+							</h5>
+						</div>
+						<div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97" data-parent="#accordionEx23">
+							<div class="card-body">
+								<div class="row my-4">
+									<div class="col-sm-8 col-md-8">
+										<h4 class="font-bold mb-3 black-text">Durante toda mi vida logré desarollar estos Soft Skills:</h4>
+										<!-- <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> -->
+									</div>
+									<!-- <div class="col-md-4 mt-3 pt-2">
+                        <div class="view z-depth-1">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg" alt="" class="img-fluid">
+                        </div>
+                    </div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading98">
+							<h5 class="font-up mb-0 py-1">
+								<a class="collapsed font-bold white-text" data-toggle="collapse" href="#collapse98" aria-expanded="false" aria-controls="collapse98">
+									Hobbies
+								</a>
+							</h5>
+						</div>
+						<div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98" data-parent="#accordionEx23">
+							<div class="card-body">
+								<div class="row my-4">
+									<div class="col-md-8">
+										<h4 class="font-bold mb-3 black-text">Estos son algunos de mis pasatiempos favoritos</h4>
+										<!-- <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> -->
+									</div>
+									<!-- <div class="col-md-4 mt-3 pt-2">
+                        <<div class="view z-depth-1">
+                            <img src="https://mdbootstrap.com/img/Photos/Others/nature.jpeg" alt="" class="img-fluid">
+                        </div> 
+                    </div-->
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="row">
-					<h2 class="display-3">Soft Skills</h2>
-				</div>
+				<!--Accordion wrapper-->
 			</div>
 		</div>
+
 	</section>
 	<!-- /About Me -->
 
 	<!-- Portfolio -->
 	<section class="" id="portfolio">
-		
+
 	</section>
 	<!-- /Portfolio -->
 
@@ -117,30 +210,53 @@
 	<section class="text-center" id="contact">
 		<div class="row">
 			<div class="col-sm-6 col-lg-12">
-				<h2 class="text-center">CONTÁCTAME</h2>
+				<h2 class="text-center display-4 cyan-text animated tada">CONTÁCTAME</h2>
 			</div>
 		</div>
-		<!-- <hr class="red"> -->
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-6">
-				<span><i class="fa fa-4x fa-envelope-o"></i></span>
-				<h4><a href="!">greace.ss@gmail.com</a></h4>
-				<!-- <button></button> -->
+		<div class="container">
+			<div class="card bg-transparent text-center col-sm-12 col-md-12 col-lg-12">
+				<div class="card-title white-text">
+					<h4>¿Deseas contactarme?</h4>
+					<a class="btn btn-default hoverable" href="assets/images/molly.jpg" download="molly.jpg">
+						<span>
+							<i class="fa fa-download"></i>
+						</span> Descargar CV
+					</a>
+				</div>
+				<hr>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<h4 class="white-text">Correo Electrónico:</h4>
+							<span>
+								<i class="fa fa-4x fa-envelope-o indigo-text  hoverable"></i>
+							</span>
+							<a href="!" class="white-text email">
+								<h3>greace.ss@gmail.com</h3>
+							</a>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<h4 class="white-text">Redes Sociales:</h4>
+							<a href="https://github.com/MollyGreace" class="col-sm-6 col-md-6 col-lg-6">
+								<span>
+									<i class="fa fa-4x fa-github indigo-text hoverable"></i>
+								</span>
+							</a>
+							<a href="https://www.linkedin.com/in/mollygreace/" class="col-sm-6 col-md-6 col-lg-6">
+								<span>
+									<i class="fa fa-4x fa-linkedin indigo-text hoverable"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
+
 		</div>
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-6">
-				<span class="col-sm-6 col-md-6 col-lg-3">
-					<a href="https://github.com/MollyGreace">
-						<i class="fa fa-4x fa-github"></i>
-					</a>
-				</span>
-				<span class="col-sm-6 col-md-6 col-lg-3">
-					<a href="https://www.linkedin.com/in/mollygreace/">
-						<i class="fa fa-4x fa-linkedin"></i>
-					</a>
-				</span>
-			</div>
+		</div>
 		</div>
 	</section>
 	<!-- /Contact -->
@@ -148,8 +264,8 @@
 
 	<!-- Footer -->
 	<!-- <footer class="page-footer center-on-small-only stylish-color-dark"> -->
-		<!--Social buttons-->
-		<!-- <div class="social-section text-center">
+	<!--Social buttons-->
+	<!-- <div class="social-section text-center">
 			<ul>
 				<li>
 					<a class="btn-floating btn-sm btn-li">
@@ -163,16 +279,16 @@
 				</li>
 			</ul>
 		</div> -->
-		<!--/.Social buttons-->
+	<!--/.Social buttons-->
 
-		<!--Copyright-->
-		<!-- <div class="footer-copyright">
+	<!--Copyright-->
+	<!-- <div class="footer-copyright">
 			<div class="container-fluid">
 				© 2018 Copyright:
 				<a href="#"> MollyGreace </a>
 			</div>
 		</div> -->
-		<!--/.Copyright-->
+	<!--/.Copyright-->
 	<!-- </footer> -->
 	<!-- /Footeer -->
 

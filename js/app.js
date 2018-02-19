@@ -119,7 +119,8 @@ $(document).ready(function() {
 
   navPortfolio.click(function() {
     home.css('display', 'none');
-    aboutme.css('display', 'none');
+    aboutme.css('display', 'none');    
+    contact.css('display', 'none');
     portfolio.css('display', 'block');
   });
 

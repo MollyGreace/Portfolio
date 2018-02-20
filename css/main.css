@@ -1,6 +1,7 @@
 /* Home */
 body {
   background: linear-gradient(to bottom, #265966 0%,#63b7b4 100%);
+  overflow: hidden;
 }
  
 @keyframes float {

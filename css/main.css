@@ -1,5 +1,5 @@
 #intro {
-  background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
+  background: url("../assets/images/8.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -34,14 +34,7 @@
   }
 }
 
-#pricing .lead {
-  opacity: 0.7;
-}
-
-#pricing .card-image {
-  background: url("../img/architecture.jpg") no-repeat center center;
-}
-
-#pricing ul li {
-  font-size: 1.1em;
+#contact {
+  background: url('../assets/images/8.jpg') no-repeat center center;
+  background-size: cover;
 }

@@ -8,10 +8,10 @@
 }
 
 .navbar:not(.top-nav-collapse) {
-  /* background: transparent !important; */
+  background: transparent !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 120px) {
   .navbar:not(.top-nav-collapse) {
     background: #3949ab !important;
   }
@@ -21,6 +21,12 @@
   .margins {
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+}
+@media (max-width: 580px){
+  .align-superior {
+    margin-top: 15rem !important;
+    /* padding-bottom: 10rem !important; */
   }
 }
 #intro .h6 {

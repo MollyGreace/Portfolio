@@ -26,7 +26,9 @@
 @media (max-width: 580px){
   .align-superior {
     margin-top: 15rem !important;
-    /* padding-bottom: 10rem !important; */
+  }
+  .photo-molly {
+    display: none
   }
 }
 #intro .h6 {
